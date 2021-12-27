@@ -1,0 +1,57 @@
+Hello! Welcome to Settlers of OCaml. 
+🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 🐫 
+The board has been set up and we are ready to begin. 
+If you have never played before, type a to learn more about the board. 
+If you have played before, type b to move on. 
+
+a:
+Let's get to know the game before we get the die rolling. 
+There are five different types of tiles on the board. 
+  - Hills produce brick. 
+  - Forest produces lumber. 
+  - Mountains produce ore. 
+  - Fields produce grain.
+  - Pasture produces wool. 
+Each tile also has a number which corresponds to the sum of two die which you
+will roll on each turn.
+Are you ready to begin? Type b. 
+
+b:
+So we are ready to build on the board! You currently have 5 settlements, 4 
+cities, and 15 roads. To start, you must decide where to place 2 settlements
+and 2 roads.
+If you need some help, type c.
+If you are ready, type d.
+
+c: 
+You must place a settlement on a corner of the map between tiles and a road
+on an edge between tiles. 
+After you roll the die on each turn, if the sum of the die matches one of the
+tiles your settlement or road is touching, you get one unit of that material.
+Acquiring material allows you to either uprgrade your settlement to a city or
+build a new settlement or road. 
+The numbers on each tile have a varying probability of being rolled. 
+If you would like to see these frequencies, type die. 
+If you are ready to move on, type d.
+
+
+d: 
+Where would you like to place your first settlement?
+Where would you like to place your road? 
+(REMINDER: This must be an edge connected to the corner where you placed the 
+settlement)
+
+Where would you like to place your second settlement?
+Where would you like to place your road? 
+(REMINDER: This must be an edge connected to the corner where you placed the 
+settlement)
+
+
+
+die:
+  - 2 & 12 = 3%
+  - 3 & 11 = 6%
+  - 4 & 10 = 8%
+  - 5 & 9 = 11%
+  - 6 & 8 = 14%
+  -     7 = 17% 
